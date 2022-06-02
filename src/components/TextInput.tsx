@@ -9,7 +9,7 @@ const TextInput: React.FC = () => {
       placeholder="title"
       {...register("title", {
         required: true,
-        maxLength: 10,
+        maxLength: 15,
         pattern: /[A-Za-z]/,
       })}
     />
