@@ -26,7 +26,7 @@ const PostTitleValidationErrors: React.FC = () => {
       )}
 
       {errors.title?.type === "postAlreadyExists" && (
-        <span style={{ color: "red" }}>
+        <span style={{ color: "blue" }}>
           Post with this title already exists
         </span>
       )}
